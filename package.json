@@ -1,0 +1,26 @@
+{
+  "name": "blognodejs",
+  "version": "1.0.0",
+  "description": "Blog created with NodeJS and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "mongodb",
+    "express",
+    "ejs",
+    "express"
+  ],
+  "author": "UmrenTV",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.21"
+  }
+}
